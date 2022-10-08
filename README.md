@@ -6,7 +6,7 @@ PROJECT-II
 
 A Continous Integration & Continous Deployment demonstrating the Jenkins Job and how it is works for a website development project.
 
-Technologies Used - Jenkins, AWS-EC2, Ubuntu, Apache2, Git & Github
+Technologies Used - Jenkins, AWS-EC2, Apache2, Git & Github
 
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
