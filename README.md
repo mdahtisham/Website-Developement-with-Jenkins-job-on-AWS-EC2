@@ -78,4 +78,4 @@ All Steps in details with Commands:-
       
 - Click on Review and Launch
 
-- Access the amazonlinux2 via the putty 
+- Access the EC2-Instance-Ubuntu via the putty 
