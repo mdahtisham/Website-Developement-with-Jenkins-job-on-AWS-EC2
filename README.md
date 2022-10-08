@@ -16,13 +16,15 @@ Step :-
 
 1.Launch the EC2 Instance in AWS
 
-2.aaa
+2.Install the Jenkins in EC2-Instance and Access the Jenkins
 
-3.aa
+3.Configure the Job and write the required command in execution shell
 
-4.aa
+4.Build the Jenkins Job
 
-5.aa
+5.It will Install the Webserver in EC2-Instance and Jenkins connected with Github repository as well as Webserver
+
+6.In every commit jenkins will pull the code from github and deploy into the webserver
 
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
