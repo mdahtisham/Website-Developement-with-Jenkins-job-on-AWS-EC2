@@ -159,10 +159,14 @@ All Steps in details with Commands:-
 - Click on the job configure
 
       Description - Website Development with Jenkins freestyle job
-      Source code - Git
-                    Paste the Github repository URL
+      Source code - Git # Paste the Github repository URL
       Branch to build - master to main  # rename
       Build triggers - POLL SCM * * * * *
+      
+      Build step - Execute Shell
+      
+                   sudo apt install -y git
+                   sudo apt install -y apache2
       
       
 
