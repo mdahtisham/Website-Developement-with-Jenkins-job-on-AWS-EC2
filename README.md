@@ -101,12 +101,10 @@ All Steps in details with Commands:-
       
 - Install the plugins
  
-      [root@ip--] # curl -fsSL https://pkg.jenkins.io/debian/jenkins.io.key | sudo tee \
-  /usr/share/keyrings/jenkins-keyring.asc > /dev/null 
+      [root@ip--] # curl -fsSL https://pkg.jenkins.io/debian/jenkins.io.key | sudo tee \ /usr/share/keyrings/jenkins-keyring.asc > /dev/null 
   
-      [root@ip--] # echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] \
-  https://pkg.jenkins.io/debian binary/ | sudo tee \
-  /etc/apt/sources.list.d/jenkins.list > /dev/null
+      [root@ip--] # echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] \ https://pkg.jenkins.io/debian binary/ | sudo tee \  /etc/apt/sources.list.d/jenkins.list > /dev/null
+  
       
 - Update
 
@@ -121,7 +119,7 @@ All Steps in details with Commands:-
       
       [root@ip--] # vi /etc/sudoers
       
-      *Add the following line in the bottom of file*
+      Add the following line in the bottom of file
       press i
       jenkins ALL= NOPASSWD: ALL
       :wq!
@@ -130,7 +128,7 @@ All Steps in details with Commands:-
       
 -----------------------------------Jenkins-----------------------------------
 
-*Lets Configure jenkins Now*
+*Lets Configure Jenkins Now*
 
 - Open Jenkins on web-browser using URL
 
