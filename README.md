@@ -173,6 +173,22 @@ All Steps in details with Commands:-
                    suod rm -rf /var/www/html
                    sudo rm -rf /var/www
                    sudo git clone <github repository> /var/www/html
+    
+    
+- Click on apply or save
+
+- Click on Build
+
+
+*Access the Website*
+
+- Open Browser using URL
+
+      URL: http://<aws_ip_adress>
+      
+*When the developer do changes in repository code or do the commit with changes. In every commit jenkins will pull the code from github and deploy into the webserver. It will refelct with in a minute it is knows as Continous Integration & Continous Development*
+
+
       
       
 
