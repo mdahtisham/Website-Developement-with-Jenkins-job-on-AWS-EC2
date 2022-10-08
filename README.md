@@ -79,3 +79,45 @@ All Steps in details with Commands:-
 - Click on Review and Launch
 
 - Access the EC2-Instance-Ubuntu via the putty 
+
+
+-----------------------------------AmazonLinux-----------------------------------
+
+- Command for root access
+
+      $ sudo su
+      
+- Update
+
+      [root@ip--] # apt-get update -y
+      
+- Install the Jdk
+
+      [root@ip--] # apt install openjdk-11-jre
+      
+- Check the version
+
+      [root@ip--] # java -version
+      
+- Install the plugins
+ 
+      [root@ip--] # curl -fsSL https://pkg.jenkins.io/debian/jenkins.io.key | sudo tee \
+  /usr/share/keyrings/jenkins-keyring.asc > /dev/null
+      [root@ip--] # echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] \
+  https://pkg.jenkins.io/debian binary/ | sudo tee \
+  /etc/apt/sources.list.d/jenkins.list > /dev/null
+      
+- Update
+
+      [root@ip--] # apt-get update -y
+      
+- Install the Jenkins
+
+      [root@ip--] # apt-get install jenkins
+      
+      
+      
+      
+      
+      
+      
