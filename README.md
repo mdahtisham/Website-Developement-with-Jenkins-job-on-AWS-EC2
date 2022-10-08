@@ -186,6 +186,10 @@ All Steps in details with Commands:-
 
       URL: http://<aws_ip_adress>
       
+- Now you can see the webstie is accessible and It is configured with Continous Integration & Continous Development
+      
+      
+      
 *When the developer do changes in repository code or do the commit with changes. In every commit jenkins will automatically pull the code from github and deploy into the webserver. It will refelct with in a minute it is knows as Continous Integration & Continous Development*
 
 
