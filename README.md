@@ -160,8 +160,8 @@ All Steps in details with Commands:-
 
       Description - Website Development with Jenkins freestyle job
       Source code - Git # Paste the Github repository URL
-      Branch to build - master to main  # rename
-      Build triggers - POLL SCM * * * * *
+      Branch to build - master to main          # rename
+      Build triggers - POLL SCM * * * * *       
       
       
      - Build step - Execute Shell
@@ -186,7 +186,7 @@ All Steps in details with Commands:-
 
       URL: http://<aws_ip_adress>
       
-*When the developer do changes in repository code or do the commit with changes. In every commit jenkins will pull the code from github and deploy into the webserver. It will refelct with in a minute it is knows as Continous Integration & Continous Development*
+*When the developer do changes in repository code or do the commit with changes. In every commit jenkins will automatically pull the code from github and deploy into the webserver. It will refelct with in a minute it is knows as Continous Integration & Continous Development*
 
 
       
