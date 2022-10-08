@@ -81,6 +81,7 @@ All Steps in details with Commands:-
 - Access the EC2-Instance-Ubuntu via the putty 
 
 
+
 -----------------------------------AmazonLinux-----------------------------------
 
 - Command for root access
@@ -133,7 +134,37 @@ All Steps in details with Commands:-
 - Open Jenkins on web-browser using URL
 
       URL: http://aws_ip_adress:8080
+      
+- You will need to to get the token from
 
+      /var/lib/jenkins/secrets/initialAdminpassword
+      
+- Open EC2-instance again type the given command
+
+      [root@ip--] # cat /var/lib/jenkins/secrets/initialAdminpassword
+      
+- Copy the text and paste into the jenkins login page you will get jenkins access
+
+- Select Install suggested plugins
+
+- Click on the Dashboard and Create a Job
+
+- Click on the new item
+
+      name - websitedevelopment
+      choose - freestyle project
+      
+- Click on the OK button 
+
+- Click on the job configure
+
+      Description - Website Development with Jenkins freestyle job
+      Source code - Git
+                    Paste the Github repository URL
+      Branch to build - master to main  # rename
+      Build triggers - POLL SCM * * * * *
+      
+      
 
       
       
