@@ -225,6 +225,15 @@ An Amazon EC2 instance is a virtual server in Amazon's Elastic Compute Cloud (EC
 Amazon provides various types of instances with different configurations of CPU, memory, storage and networking resources to suit user needs. Each type is available in various sizes to address specific workload requirements.
 
 
+# Git 
+
+Git is a version control system that is widely used in the programming world. It is used for tracking changes in the source code during software development. It was developed in 2005 by Linus Torvalds, the creator of the Linux operating system kernel.
+
+
+# Github
+
+GitHub is an online software development platform used for storing, tracking, and collaborating on software projects. It enables developers to upload their own code files and to collaborate with fellow developers on open-source projects. GitHub also serves as a social networking site in which developers can openly network, collaborate, and pitch their work.
+
 
 # Apache
 
