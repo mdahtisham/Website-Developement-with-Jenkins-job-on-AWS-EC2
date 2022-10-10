@@ -1,0 +1,16 @@
+Jenkins Job configure
+
+Description 	   -  Website Development with Jenkins freestyle job
+Source code	   -  Git # Paste the Github repository URL
+Branch to build    -  master to main     # rename
+Build triggers 	   -  POLL SCM * * * * * 
+
+Build step - Execute Shell
+	#command
+        sudo apt install -y git
+        sudo apt install -y apache2
+        sudo systemctl start apache2
+        sudo systemctl enable apache2
+        sudo rm -rf /var/www/html
+        sudo rm -rf /var/www
+        sudo git clone <github repository> /var/www/html
