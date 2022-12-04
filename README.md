@@ -60,7 +60,8 @@ All Steps in details with Commands:-
       Select - Create a new security group 
       Security group name = sg-jenkins
       
-      Allow HTTPS or HTTP traffic from the internet
+      Allow HTTPS - 443, HTTP - 80 or Curtom TCP Rule - 8080 for incomming or outgoing traffic from the internet
+      
       
 - Configure the Storage
 
