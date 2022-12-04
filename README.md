@@ -39,46 +39,37 @@ All Steps in details with Commands:-
 
 - Click on the Launch Instance
 
-- Choose AMI
+- Name and Tag
 
       Ubuntu
       
-- Choose an Instance Type
+- Choose an Amazom machine image
       
+      Ubuntu
+      
+- Instance Type
+
       t2.micro
       
-- Configure Instance Details
+- Create a new Key Pair and Type name
 
-      Number of Instance = 1
-      Network = Default
-      Subnet = Default
-      Auto-Assign Public IP = Use subnet setting (Enable)
+      linux1
       
-- Add Storage
-
-      Root - /dev/xvda  - Size-8GB  -- Default
-      
-- Add Tags 
-
-      Name - Ubuntu
-      
-- Configure the Security Group
+- Create the Security Group
 
       Select - Create a new security group 
       Security group name = sg-jenkins
       
+      Allow HTTPS or HTTP traffic from the internet
       
-      -Type-----Protocol-----Port-----Source-
-      
-      SSH ---------------TCP---------22-------Anywhere
-      HTTP---------------TCP---------80-------Anywhere
-      HTTPS--------------TCP---------443------Anywhere
-      Custom TCP Rule----TCP---------8080-----Anywhere
-      
-      
-- Click on Review and Launch
+- Configure the Storage
 
-- Access the EC2-Instance-Ubuntu via the putty 
+      8 GB - Default Root Volume
+      
+- Click on Launch Instance
+
+- Access the amazonlinux2 via the putty
+
 
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
