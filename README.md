@@ -26,6 +26,10 @@ Step :-
 
 6.In every commit jenkins will pull the code from github and deploy into the webserver
 
+![Untitled Diagram drawio](https://github.com/mdahtisham/Website-Development-with-Jenkins-job-on-AWS-EC2/assets/64635312/73f1bd93-906c-4dda-974d-e7ed4a0eabc2)
+
+
+
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 
